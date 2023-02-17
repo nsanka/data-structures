@@ -1,0 +1,40 @@
+Runtime Analysis (Worst Case Big-O Notation) of my solution
+##################################################################
+Task 0:
+
+In this, I am prinint the first record from texts list and last record from calls list.
+As I get these records using list index, the code runs constant time irrespective of list length.
+Big O is equals 1, which is --O(1)--
+##################################################################
+Task 1:
+
+In this, there are two separate for loops. Each loop iterates n items, so the code iterates 2n items
+Big O is equals 2n, so if we approximate it is --O(n)--
+##################################################################
+Task 2:
+
+In this, there is only one for loop, which iterates n items.
+I used defaultdict and max methods to get the required values.
+Big O is euals n, which is --O(n)--
+##################################################################
+Task 3:
+
+Part A 
+In this, I used one for loop with nested if conditions, so the code iterates n items.
+Also, there is another for loop for printing the result, which also iterates n times.
+Considering the sorted method, which will take n*log(n) runtime.
+Big O of Part A is 2n + n*log(n), if we approximate it is --O(n log n)--
+
+Part B
+I am using the defaultdict, sum, round methods, so this will be constant time irrespective of length.
+Big O is equals 1, which is --O(1)--
+
+For Task 3, overall
+Big O is --O(n log n)--
+##################################################################
+Task 4:
+
+There are two for loops to iterate calls list and texts list and one for loop to print. Each loop iterates n items, so the code iterates 3n times
+Considering the sorted method, which will take n*log(n) runtime.
+Big O is 3n + n*log(n), so if we approximate it is --O(n log n)--
+##################################################################
